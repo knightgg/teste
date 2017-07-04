@@ -1,0 +1,33 @@
+{
+  "name": "cs-desafio-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "guid": "0.0.12",
+    "jwt-simple": "^0.5.1",
+    "md5": "^2.2.1",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.spec.js"
+  },
+  "author": "Geraldo Ribeiro Junior",
+  "license": "ISC"
+}
