@@ -26,7 +26,8 @@
     "supertest": "^3.0.0"
   },
   "scripts": {
-    "test": "mocha ./test/*.spec.js"
+    "test": "mocha ./test/*.spec.js",
+    "start": "node app.js"
   },
   "author": "Geraldo Ribeiro Junior",
   "license": "ISC"
